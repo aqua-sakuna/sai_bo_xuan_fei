@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<UseWPF>true</UseWPF>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<SelfContained>false</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<Platforms>AnyCPU;x64</Platforms>
+		<ApplicationIcon>app.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="tests-archive\**\*.cs" />
+		<Compile Remove="*Tests.cs" />
+		<Compile Remove="TestRunner.cs" />
+		<Compile Remove="TestHistoryManagerSimple.cs" />
+		<Compile Remove="Task7.2_Verification.cs" />
+		<Compile Remove="Task7.3_ErrorHandling_Verification.cs" />
+		<Compile Remove="Task7.4_Integration_Verification.cs" />
+		<Compile Remove="RunFavoritesTests.cs" />
+	</ItemGroup>
+
+</Project>
