@@ -18,7 +18,7 @@
 
 赛博选妃 就是为了终结这种“审美焦虑”而生的。它不是一个简单的播放器，它是你的大内总管，是你的御用司礼监。它用最硬核的 C# 代码，帮你完成那一瞬间的宿命对决。
 
-<img width="3840" height="2064" alt="image" src="https://github.com/user-attachments/assets/3d139a28-3c2b-4236-820e-298d028300e3" />
+<img width="3840" height="2064" alt="6c0560b3a066388992b49aec92f148af" src="https://github.com/user-attachments/assets/bd834970-3db4-4e35-8b24-0b79ba2150fd" />
 
 （测试数据预览截图）
 
